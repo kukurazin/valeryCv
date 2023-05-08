@@ -1,0 +1,28 @@
+.homeTab {
+  display: grid;
+  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding: 0 200px;
+  padding-top: 50px;
+}
+
+.greetings {
+  grid-column-start: 1;
+}
+
+.avatar {
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+.cl {
+  grid-column-start: 2;
+  grid-column-end: 5;
+
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+h2 {
+  font-size: 35px;
+}
